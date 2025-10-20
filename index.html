@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Bear • Coming Soon-ish</title>
+    <meta name="description" content="Miguel Bear's deliberately unfinished digital HQ.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="noise"></div>
+    <main class="card">
+        <header class="brand">
+            <div class="logo">MB</div>
+            <div>
+                <h1>Miguel Bear</h1>
+                <p class="tagline">Digital tinkerer, perpetual construction site supervisor.</p>
+            </div>
+        </header>
+
+        <section class="headline">
+            <h2>Welcome to my intentionally unfinished masterpiece.</h2>
+            <p>
+                Yes, this is <em>the</em> official site. No, your monitor is not broken — I just like the
+                minimalist “under construction” aesthetic. Come back soon(ish) for actual content,
+                or keep refreshing if you enjoy meta jokes and tasteful gradients.
+            </p>
+        </section>
+
+        <section class="cta">
+            <a class="button primary" href="https://github.com/MiguelBearu" target="_blank" rel="noopener">
+                Visit the GitHub workshop
+            </a>
+            <a class="button ghost" href="mailto:miguel@example.com">
+                Send construction feedback
+            </a>
+        </section>
+
+        <section class="image-wrap">
+            <img src="https://media.giphy.com/media/fAnEC88LccN7a/giphy.gif" alt="Bear frantically building a website">
+            <figcaption>Actual footage of the webmaster in their natural habitat.</figcaption>
+        </section>
+
+        <footer>
+            <p>© <span id="year"></span> Miguel Bear — Because perfection is overrated.</p>
+        </footer>
+    </main>
+
+    <script>
+        // Keep the copyright year current
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
