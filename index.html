@@ -3,54 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Miguel Bear • Coming Soon-ish</title>
-    <meta name="description" content="Miguel Bear's deliberately unfinished digital HQ.">
+    <title>Miguel Bear - Control &amp; Energy Systems Engineer</title>
+    <meta name="description" content="Control and instrumentation engineer focused on energy systems, embedded control, and data-driven design.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="noise"></div>
-    <main class="card">
-        <header class="brand">
-            <div class="logo">MB</div>
-            <div>
+    <div class="surface"></div>
+    <div class="glow glow-top"></div>
+    <div class="glow glow-bottom"></div>
+
+    <main class="shell">
+        <header class="hero" id="top">
+            <div class="hero__content">
+                <p class="eyebrow">Control &amp; Energy Systems Engineer</p>
                 <h1>Miguel Bear</h1>
-                <p class="tagline">Digital tinkerer, perpetual construction site supervisor.</p>
+                <p class="lede">
+                    I design control algorithms, build real-time data acquisition pipelines, and prototype mechanical systems
+                    that bridge electrical and energy engineering. Currently researching embedded instrumentation strategies at
+                    <strong>Facultad de Ingenieria, UNAM</strong>.
+                </p>
+                <div class="hero__actions">
+                    <a class="button primary" href="https://www.linkedin.com/in/workwithmiguelbear" target="_blank" rel="noopener">Connect on LinkedIn</a>
+                    <a class="button outline" href="https://github.com/MiguelBearu" target="_blank" rel="noopener">Explore GitHub</a>
+                </div>
+            </div>
+            <div class="hero__card">
+                <div class="hero__card-header">
+                    <div class="initials">MB</div>
+                    <div>
+                        <p class="hero__card-title">Available for internships &amp; collaborations</p>
+                        <p class="hero__card-subtitle">Mexico City | Hybrid / On-site</p>
+                    </div>
+                </div>
+                <ul class="hero__highlights">
+                    <li>Real-time data acquisition &amp; instrumentation</li>
+                    <li>Embedded control for energy and mobility systems</li>
+                    <li>CAD-driven prototyping (SolidWorks, Fusion 360)</li>
+                </ul>
+                <a class="hero__email" href="mailto:miguelbearu@gmail.com">miguelbearu@gmail.com</a>
             </div>
         </header>
 
-        <section class="headline">
-            <h2>Welcome to my intentionally unfinished masterpiece.</h2>
-            <p>
-                Yes, this is <em>the</em> official site. No, your monitor is not broken — I just like the
-                minimalist “under construction” aesthetic. Come back soon(ish) for actual content,
-                or keep refreshing if you enjoy meta jokes and tasteful gradients.
-            </p>
+        <section class="section" id="experience">
+            <div class="section__header">
+                <h2>Experience</h2>
+                <p>Hands-on internships focused on control, instrumentation, and energy systems outreach.</p>
+            </div>
+            <div class="grid timeline">
+                <article class="timeline__item">
+                    <header>
+                        <h3>Research Engineer - Control &amp; Instrumentation Systems</h3>
+                        <p class="timeline__meta">Facultad de Ingenieria, UNAM | Internship | Sep 2024 - Aug 2025 | Mexico City</p>
+                    </header>
+                    <p>
+                        Developing and testing control algorithms for embedded applications, using numerical methods to optimize
+                        system performance while tightening feedback loop reliability for research prototypes.
+                    </p>
+                    <ul class="tag-list">
+                        <li>Real-time Data Acquisition</li>
+                        <li>Embedded Control</li>
+                        <li>3D Modeling &amp; Printing</li>
+                    </ul>
+                </article>
+
+                <article class="timeline__item">
+                    <header>
+                        <h3>Student Chapter Representative - IEEE Power &amp; Energy Society</h3>
+                        <p class="timeline__meta">UNAM IEEE PES | Internship | Feb 2024 - Sep 2024 | Mexico City</p>
+                    </header>
+                    <p>
+                        Led initiatives that expanded student engagement with power and energy topics, coordinating workshops and
+                        mentoring peers on leadership and project delivery across the chapter.
+                    </p>
+                    <ul class="tag-list">
+                        <li>Engineering Management</li>
+                        <li>Community Engagement</li>
+                        <li>Leadership</li>
+                    </ul>
+                </article>
+
+                <article class="timeline__item">
+                    <header>
+                        <h3>Instrumentation &amp; Control Engineer</h3>
+                        <p class="timeline__meta">Puma Off Road UNAM | Internship | Aug 2023 - Dec 2023 | Mexico City</p>
+                    </header>
+                    <p>
+                        Spearheaded the development and manufacturing of mechanical components, leveraging SolidWorks and Fusion 360
+                        to enhance vehicle performance and ensure robust instrumentation for off-road testing.
+                    </p>
+                    <ul class="tag-list">
+                        <li>CAD</li>
+                        <li>Prototyping</li>
+                        <li>Systems Integration</li>
+                    </ul>
+                </article>
+            </div>
         </section>
 
-        <section class="cta">
-            <a class="button primary" href="https://github.com/MiguelBearu" target="_blank" rel="noopener">
-                Visit the GitHub workshop
-            </a>
-            <a class="button ghost" href="mailto:miguel@example.com">
-                Send construction feedback
-            </a>
+        <section class="section" id="education">
+            <div class="section__header">
+                <h2>Education</h2>
+                <p>Grounded in electrical, electronics, and energy engineering across global institutions.</p>
+            </div>
+            <div class="grid education">
+                <article class="education__item">
+                    <h3>BSc Electrical &amp; Electronics Engineering</h3>
+                    <p class="timeline__meta">Facultad de Ingenieria | UNAM | Minor in Energy Engineering | Aug 2021 - Dec 2026</p>
+                    <p>Exploring automation, electrical power systems, and energy integration through research-driven coursework.</p>
+                </article>
+                <article class="education__item">
+                    <h3>Visiting Student - MSc Energy Engineering</h3>
+                    <p class="timeline__meta">Politecnico di Milano | Feb 2025 - Aug 2025</p>
+                    <p>Focused on renewable integration, grid modernization, and European approaches to sustainable energy.</p>
+                </article>
+            </div>
         </section>
 
-        <section class="image-wrap">
-            <img src="https://media.giphy.com/media/fAnEC88LccN7a/giphy.gif" alt="Bear frantically building a website">
-            <figcaption>Actual footage of the webmaster in their natural habitat.</figcaption>
+        <section class="section section--alt" id="languages">
+            <div class="section__header">
+                <h2>Languages</h2>
+                <p>Multilingual communicator collaborating across teams and regions.</p>
+            </div>
+            <ul class="language-list">
+                <li><span>Spanish</span><span>Native or bilingual</span></li>
+                <li><span>English</span><span>Full professional proficiency</span></li>
+                <li><span>Italian</span><span>Full professional proficiency</span></li>
+                <li><span>German</span><span>Limited working proficiency</span></li>
+            </ul>
         </section>
 
-        <footer>
-            <p>© <span id="year"></span> Miguel Bear — Because perfection is overrated.</p>
+        <footer class="footer">
+            <p>&copy; <span id="year"></span> Miguel Bear - Control &amp; Instrumentation Engineering</p>
+            <div class="footer__links">
+                <a href="#top">Back to top</a>
+                <a href="https://www.linkedin.com/in/workwithmiguelbear" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/MiguelBearu" target="_blank" rel="noopener">GitHub</a>
+            </div>
         </footer>
     </main>
 
     <script>
-        // Keep the copyright year current
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
 </body>
